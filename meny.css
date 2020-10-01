@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgb(15, 15, 119);
+  width: 30%;
+  padding: 2em;
+  color: rgb(38, 102, 221);
+  box-shadow: 0 0 20px 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: Sourse Sans Pro;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.cool-länk::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.cool-länk:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
