@@ -18,8 +18,10 @@ body {
   width: 75%;
 }
 
-.bild2 {
+.img-studio {
+  margin-top: 20px;
   width: 1200px;
+  height: 600px;
   color: rgb(22, 22, 109);
   box-shadow: 15px 15px 20px;
 }
