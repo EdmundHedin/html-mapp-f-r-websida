@@ -4,55 +4,83 @@
   font-size: 40px;
   text-align: center;
   background: white;
+  color: black;
+  box-shadow: 7px 7px 10px;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
 .leftcolumn {
-  float: left;
+  float: center;
   width: 75%;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+.img-studio {
+  width: 1200px;
+  color: rgb(22, 22, 109);
+  box-shadow: 15px 15px 20px;
 }
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-}
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
+.card p:first-of-type {
+  margin: 25px;
+  font-size: x-large;
+}
+.card img {
+  margin: 0px;
+}
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
 }
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+.footer a {
+  font-size: xxx-large;
+}
+.footer h2 {
+  font-size: x-large;
+}
 @media screen and (max-width: 1500px) {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
     padding: 0;
   }
+}
+.coolbutton2 {
+  background-color: rgb(116, 116, 122);
+  color: white;
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 35px;
+  text-align: center;
+
+  border: solid 3px rgb(116, 116, 122);
+  border-radius: 2px;
+  padding: 7px 21px;
+
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition-duration: 200ms;
+}
+
+.coolbutton2:hover {
+  color: rgb(34, 126, 212);
+  background: rgb(43, 44, 56);
+  box-shadow: 0 0 10px rgb(116, 116, 122), 0 0 40px rgb(116, 116, 122),
+    0 0 80px rgb(116, 116, 122);
 }

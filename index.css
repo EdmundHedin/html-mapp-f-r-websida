@@ -1,40 +1,29 @@
-/* Add a gray background color with some padding */
 body {
   font-family: Arial;
   padding: 20px;
-  background: #805a5a28;
+  background: white;
 }
 
-/* Header/Blog Title */
 .header {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: cadetblue;
+  color: #ddd;
+  background: darkblue;
 }
 
-/* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
   float: left;
   width: 75%;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+.bild2 {
+  width: 1200px;
+  color: rgb(22, 22, 109);
+  box-shadow: 15px 15px 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
@@ -56,11 +45,39 @@ body {
   margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1500px) {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
     padding: 0;
   }
+}
+
+/* Knapp till meny */
+.coolbutton {
+  background-color: rgb(116, 116, 122);
+  color: white;
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 35px;
+  text-align: center;
+
+  border: solid 3px rgb(116, 116, 122);
+  border-radius: 2px;
+  padding: 7px 21px;
+
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition-duration: 200ms;
+}
+
+.coolbutton:hover {
+  color: rgb(34, 126, 212);
+  background: rgb(53, 57, 99);
+  box-shadow: 0 0 10px rgb(116, 116, 122), 0 0 40px rgb(116, 116, 122),
+    0 0 80px rgb(116, 116, 122);
 }
