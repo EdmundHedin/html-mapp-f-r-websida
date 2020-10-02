@@ -19,7 +19,6 @@
   box-shadow: 15px 15px 20px;
 }
 
-/* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
@@ -31,14 +30,9 @@
   font-size: x-large;
 }
 
-.card img {
-  margin: 0px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.card p2:first-of-type {
+  margin: 25px;
+  font-size: x-large;
 }
 
 .footer {
@@ -50,10 +44,6 @@
 
 .footer a {
   font-size: xxx-large;
-}
-
-.footer h2 {
-  font-size: x-large;
 }
 
 @media screen and (max-width: 1500px) {
