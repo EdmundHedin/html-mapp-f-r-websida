@@ -26,8 +26,8 @@ li a {
   color: white;
   font-family: Sourse Sans Pro;
   font-weight: lighter;
-  font-size: 25px;
-  padding: 0 20px;
+  font-size: 2vw;
+  padding: 0 1.5vw;
 }
 
 .cool-länk::after {
