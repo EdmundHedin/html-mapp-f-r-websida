@@ -30,7 +30,7 @@
   font-size: x-large;
 }
 
-.card p2:first-of-type {
+.card p:first-of-type {
   margin: 25px;
   font-size: x-large;
 }
